@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conveyor.Tests", "Conveyor.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conveyor.Core", "Conveyor.Core\Conveyor.Core.csproj", "{1C400D1B-6A9E-478D-B680-FD55732BD5C6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conveyor.LinkedList", "Conveyor.LinkedList\Conveyor.LinkedList.csproj", "{03A82174-C6DE-4DCE-9FCE-DD0C8BC7354E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{1C400D1B-6A9E-478D-B680-FD55732BD5C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C400D1B-6A9E-478D-B680-FD55732BD5C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C400D1B-6A9E-478D-B680-FD55732BD5C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03A82174-C6DE-4DCE-9FCE-DD0C8BC7354E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03A82174-C6DE-4DCE-9FCE-DD0C8BC7354E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03A82174-C6DE-4DCE-9FCE-DD0C8BC7354E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03A82174-C6DE-4DCE-9FCE-DD0C8BC7354E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

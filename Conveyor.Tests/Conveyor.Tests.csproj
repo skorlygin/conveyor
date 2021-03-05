@@ -21,6 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Conveyor.LinkedList\Conveyor.LinkedList.csproj" />
     <ProjectReference Include="..\Conveyor.List\Conveyor.List.csproj" />
   </ItemGroup>
 

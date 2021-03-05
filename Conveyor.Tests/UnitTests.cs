@@ -1,4 +1,5 @@
 using Conveyor.Core;
+using Conveyor.LinkedList;
 using Conveyor.List;
 using FluentAssertions;
 using System.Collections.Generic;
@@ -11,7 +12,8 @@ namespace Conveyor.Tests
 	{
 		public static IEnumerable<object[]> ConveyorBuilders => new List<object[]>
 		{
-			new object[] { new ListConveyorBuilder() }
+			new object[] { new ListConveyorBuilder() },
+			new object[] { new LinkedListConveyorBuilder() }
 		};
 
 		[Theory]
